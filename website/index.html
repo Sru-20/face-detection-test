@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Face Detection Test</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Face Detection Testing</h1>
+    <p class="subtitle">
+      Upload an image to detect faces and visualize bounding boxes & landmarks
+    </p>
+
+    <div class="upload-card">
+      <input type="file" id="imageInput" accept="image/*" />
+      <button id="detectBtn">Detect Face</button>
+    </div>
+
+    <div class="canvas-wrapper">
+      <canvas id="canvas"></canvas>
+    </div>
+
+    <div class="info">
+      <h3>API Response (Normalized)</h3>
+      <pre id="jsonOutput">Waiting for response...</pre>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
