@@ -1,4 +1,5 @@
-const API_URL = "http://127.0.0.1:8000/detect-face";
+const API_URL = "https://face-detection-test-1.onrender.com/detect-face";
+
 
 const imageInput = document.getElementById("imageInput");
 const detectBtn = document.getElementById("detectBtn");
