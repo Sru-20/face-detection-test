@@ -2,6 +2,8 @@
 import cv2
 import numpy as np
 import mediapipe as mp
+import mediapipe.python.solutions as solutions
+mp.solutions = solutions
 
 mp_face_detection = mp.solutions.face_detection
 mp_face_mesh = mp.solutions.face_mesh
